@@ -106,3 +106,128 @@ img {
   display: flex;
   justify-content: space-between;
 }
+
+.benefits {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+  align-items: center;
+}
+
+.benMid {
+  padding-top: 40px;
+  height: 291px;
+
+  background: #ffffff;
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+h4 {
+  font-family: "Gilroy-Bold";
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+
+.ben_text {
+  margin-top: 17px;
+  margin-bottom: 25px;
+}
+.ben_img {
+  margin-bottom: 25px;
+}
+
+.ben_link {
+  font-family: "Gilroy-Bold";
+  font-size: 11px;
+  line-height: 150%;
+  cursor: pointer;
+  color: #000000;
+}
+.why_us {
+  background: #fafafa;
+}
+
+.why_us_main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 147px 1fr;
+  justify-items: center;
+  gap: 30px;
+  padding-top: 92px;
+  padding-bottom: 100px;
+}
+
+.WU_header {
+  width: 682px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  grid-column: 1 / 4;
+}
+
+h3 {
+  font-family: "Gilroy-Bold";
+  font-size: 45px;
+  line-height: 53px;
+  color: #000000;
+}
+
+.WU_header_text {
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #666666;
+}
+
+.WU_itam {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+}
+
+.WU_mid_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.WU_img {
+  margin-top: 15px;
+  margin-bottom: 34px;
+}
+
+.WU_text {
+  margin: 22px 30px 39px 30px;
+  font-family: "Gilroy-Regular";
+  font-size: 15px;
+  line-height: 150%;
+  text-align: center;
+  color: #aaaaaa;
+}
+
+.WU_btn {
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    gap: 6px;
+  width: 150px;
+  height: 50px;
+  background: #f25822;
+  box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+  border-radius: 50px;
+  border: 0;
+  font-family: "Gilroy-Bold";
+  font-size: 13px;
+  line-height: 150%;
+  margin-bottom: 50px;
+  color: #ffffff;
+}
